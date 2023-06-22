@@ -1,9 +1,7 @@
 export class Cliente {
-    id:number;
-    nombre:string;
-    apellido:string;
-    createAt:string;
-    email:string;
-
-
+    id:number=0;
+    nombre:string='';
+    apellido:string='';
+    createAt:string='';
+    email:string='';
 }
