@@ -1,5 +1,6 @@
 .footer{
 position:absolute;
+/*bottom:100px; pie de pagina*/
 height: 60px;
 width: 100%;
 }
