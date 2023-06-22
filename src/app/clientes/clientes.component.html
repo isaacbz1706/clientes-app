@@ -1,4 +1,4 @@
-<div class="card border-primary mb-3" style="max-width: max-content;">
+<div class="card border-primary mb-3">
     <div class="card-header">Clientes</div>
     <div class="card-body text-primary">
       <h5 class="card-title">Listado de clientes</h5>
@@ -14,7 +14,7 @@
         </thead>
 
         <tbody>
-            <tr *ngFor="let cliente of Clientes">
+            <tr *ngFor="let cliente of clientes">
                 <th>{{cliente.id}}</th>
                 <th>{{cliente.nombre}}</th>
                 <th>{{cliente.apellido}}</th>
